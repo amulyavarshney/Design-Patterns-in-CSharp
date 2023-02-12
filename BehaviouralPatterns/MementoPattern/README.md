@@ -28,4 +28,4 @@ The class `History` represents the Caretaker in the Memento pattern. It has a pu
 ### Program:
 The class `Program` is the main class of the program. In the `Main` method, an instance of the `Editor` class and an instance of the `History` class is created. The `Content` property of the editor is set to "a", and the `CreateState` method of the editor is called, and the returned `EditorState` object is passed to the `Push` method of the history. The same steps are repeated for "b" and "c". Finally, two calls to the `Restore` method of the editor are made, each time passing the result of a call to the `Pop` method of the history. The final value of the `Content` property of the editor is then printed to the console.
 
-![Memento Pattern Diagram](class_diagram.jpg)
+![class_diagram](class_diagram.jpg)
