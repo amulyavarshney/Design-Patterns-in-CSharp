@@ -24,7 +24,7 @@
             editor.restore(history.Pop());
 
             // Display the current content of the editor
-            Console.WriteLine(editor.Content); // a
+            Console.WriteLine(editor.Content); // b
         }
     }
 }
