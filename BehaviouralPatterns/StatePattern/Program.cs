@@ -1,6 +1,6 @@
 ﻿namespace StatePattern
 {
-    // Program class to test the different tool types
+    // Program class to demonstrate the State pattern
     internal class Program
     {
         static void Main(string[] args)
